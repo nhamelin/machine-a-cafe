@@ -8,17 +8,19 @@ namespace MachineACafe.Test
         [TestMethod]
         public void TestGiveExpresso()
         {
+            //Arrange
             const int price = 40;
             const string name = "Expresso";
-            //Expresso expresso = new Expresso(40); 
+            Drink drink = new Drink("Expresso", 40);
 
-            CoffeeMachine cm = new CoffeeMachine(new Drink("Expresso",40));
-
+            CoffeeMachine cm = new CoffeeMachine();
+            cm.drink = drink;
+            //Act
             var res = cm.serve(name,price);
 
+            //Assert
             Assert.AreEqual(40, res,"Votre expresso est servi, bonne dégustation");
             Assert.AreEqual("Expresso", name,"Votre expresso est servi, bonne dégustation");
-            //Assert.AreEqual(40, price,"Votre expresso est servi, bonne dégustation");
         }
     }
 }
