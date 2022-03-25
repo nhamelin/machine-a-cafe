@@ -10,8 +10,8 @@ namespace MachineACafe.Test
         {
             //Arrange
             const int price = 40;
-            const string name = "Expresso";
-            Drink drink = new Drink("Expresso", 40);
+            const string name = "Chocolat chaud";
+            Drink drink = new Drink("Chocolat chaud", 40);
 
             CoffeeMachine cm = new CoffeeMachine();
             cm.drink = drink;

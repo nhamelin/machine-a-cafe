@@ -14,13 +14,26 @@ namespace MachineACafe
 
         public CoffeeMachine()
         {
-            //this.drink = new Drink("",0);
         }
 
         public int serve(string name, int price)
         {
-           // Drink drink = new Drink(name, price); 
+
             if (this.drink.getPrice() == price)
+            {
+                return price;
+            }
+            else
+            {
+                return 0;
+            }
+
+        }
+
+        public int serveWithCup(string name, int price)
+        {
+
+            if (this.drink.getPrice() == price && this.getCupFound() == true)
             {
                 return price;
             }
@@ -33,11 +46,15 @@ namespace MachineACafe
 
         public bool IscupFound()
         {
-            reti
+            return getCupFound();
         }
         public bool getCupFound()
         {
             return this.cupFound;
         }
+
+
+
+
     }
 }
