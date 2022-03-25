@@ -9,19 +9,19 @@ namespace MachineACafe
     public class CoffeeMachine
     {
 
-        private Expresso expresso;
+        private Drink drink;
 
-        public CoffeeMachine(Expresso exposso)
+        public CoffeeMachine(Drink drink)
         {
-            this.expresso = expresso;
+            this.drink = drink;
         }
 
-        public int serve(int price)
+        public int serve(string name, int price)
         {
 
             int res = 0;
-            Expresso exprs = new Expresso(price); 
-            if (exprs.getPrice() == price)
+            Drink drink = new Drink(name, price); 
+            if (drink.getPrice() == price)
             {
                 res = price;
                 return res;
