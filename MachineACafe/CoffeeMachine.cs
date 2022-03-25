@@ -18,17 +18,14 @@ namespace MachineACafe
 
         public int serve(string name, int price)
         {
-
-            int res = 0;
            // Drink drink = new Drink(name, price); 
             if (this.drink.getPrice() == price)
             {
-                res = price;
-                return res;
+                return price;
             }
             else
             {
-                return res;
+                return 0;
             }
 
         }
