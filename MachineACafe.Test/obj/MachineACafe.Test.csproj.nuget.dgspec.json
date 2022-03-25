@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe.Test/MachineACafe.Test.csproj": {}
+    "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe.Test\\MachineACafe.Test.csproj": {}
   },
   "projects": {
-    "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe.Test/MachineACafe.Test.csproj": {
+    "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe.Test\\MachineACafe.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe.Test/MachineACafe.Test.csproj",
+        "projectUniqueName": "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe.Test\\MachineACafe.Test.csproj",
         "projectName": "MachineACafe.Test",
-        "projectPath": "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe.Test/MachineACafe.Test.csproj",
-        "packagesPath": "/Users/nicolashamelin/.nuget/packages/",
-        "outputPath": "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe.Test/obj/",
+        "projectPath": "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe.Test\\MachineACafe.Test.csproj",
+        "packagesPath": "C:\\Users\\JAPHETNAMDEGONE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe.Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/nicolashamelin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JAPHETNAMDEGONE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe/MachineACafe.csproj": {
-                "projectPath": "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe/MachineACafe.csproj"
+              "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe\\MachineACafe.csproj": {
+                "projectPath": "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe\\MachineACafe.csproj"
               }
             }
           }
@@ -74,26 +80,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe/MachineACafe.csproj": {
+    "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe\\MachineACafe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe/MachineACafe.csproj",
+        "projectUniqueName": "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe\\MachineACafe.csproj",
         "projectName": "MachineACafe",
-        "projectPath": "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe/MachineACafe.csproj",
-        "packagesPath": "/Users/nicolashamelin/.nuget/packages/",
-        "outputPath": "/Users/nicolashamelin/Desktop/MachineACafe/MachineACafe/obj/",
+        "projectPath": "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe\\MachineACafe.csproj",
+        "packagesPath": "C:\\Users\\JAPHETNAMDEGONE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JAPHETNAMDEGONE\\Documents\\Prive\\M2\\Dev_Logiciel_Avancé\\Test\\CoffeeMachine\\machine-a-cafe\\MachineACafe\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/nicolashamelin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JAPHETNAMDEGONE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -126,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
