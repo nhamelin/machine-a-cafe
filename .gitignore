@@ -1,2 +1,6 @@
 .vs
 .DS_STORE
+MachineACafe.Test/obj
+MachineACafe.Test/bin
+MachineACafe/obj
+MachineACafe/bin
