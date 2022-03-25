@@ -15,11 +15,12 @@ namespace MachineACafe.Test
             coffeeMachine.drink = expresso;
 
             int moneyGiven = 39;
+            int price = coffeeMachine.serve(expresso);
 
             // Act
 
             // Assert
-            Assert.AreEqual(coffeeMachine.serve, moneyGiven, "Merci d'ajouter 1 cts");
+            Assert.AreEqual(price, moneyGiven, "Merci d'ajouter 1 cts");
         }
     }
 }

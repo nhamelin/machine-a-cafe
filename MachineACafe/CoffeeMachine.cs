@@ -16,12 +16,12 @@ namespace MachineACafe
             //this.drink = new Drink("",0);
         }
 
-        public int serve(string name, int price)
+        public int serve(Drink drink)
         {
            // Drink drink = new Drink(name, price); 
-            if (this.drink.getPrice() == price)
+            if (this.drink.getPrice() == drink.getPrice())
             {
-                return price;
+                return drink.getPrice();
             }
             else
             {
