@@ -3,19 +3,23 @@
 namespace MachineACafe.Test
 {
     [TestClass]
-    public class ManqueDeMonnaieTest
+    public class UnitTestPrice
     {
         [TestMethod]
-        public void ManqueDeMonnaie()
+        public void TestPrice()
         {
             // Arrange
-            const int monnaieInsérée = 39;
-            const int prixExpresso = 40;
+            Drink expresso = new Drink("expresso", 40);
+            CoffeeMachine coffeeMachine = new CoffeeMachine();
+
+            coffeeMachine.drink = expresso;
+
+            int moneyGiven = 39;
 
             // Act
 
             // Assert
-            Assert.AreEqual(prixExpresso, monnaieInsérée, "Merci d'ajouter 1 cts");
+            Assert.AreEqual(coffeeMachine.serve, moneyGiven, "Merci d'ajouter 1 cts");
         }
     }
 }
