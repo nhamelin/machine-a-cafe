@@ -10,6 +10,7 @@ namespace MachineACafe
     {
 
         public Drink drink;
+        private bool cupFound;
 
         public CoffeeMachine()
         {
@@ -31,6 +32,15 @@ namespace MachineACafe
                 return res;
             }
 
+        }
+
+        public bool IscupFound()
+        {
+            reti
+        }
+        public bool getCupFound()
+        {
+            return this.cupFound;
         }
     }
 }
