@@ -15,12 +15,12 @@ namespace MachineACafe.Test
 
             CoffeeMachine cm = new CoffeeMachine();
             cm.drink = drink;
+            cm.SetCupFound(true);
             //Act
-            var res = cm.serve(name,price);
+            var res = cm.serveWithCup(drink);
 
             //Assert
-            Assert.AreEqual(40, res,"Votre expresso est servi, bonne dégustation");
-            Assert.AreEqual("Expresso", name,"Votre expresso est servi, bonne dégustation");
+            Assert.AreEqual(40, res,"Votre boisson est servi dans votre gobelet, bonne dégustation");
         }
     }
 }

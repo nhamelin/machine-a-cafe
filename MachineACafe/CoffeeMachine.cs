@@ -16,12 +16,12 @@ namespace MachineACafe
         {
         }
 
-        public int serve(string name, int price)
+        public int serve(Drink drink)
         {
 
-            if (this.drink.getPrice() == price)
+            if (this.drink.getPrice() == drink.getPrice())
             {
-                return price;
+                return drink.getPrice();
             }
             else
             {
@@ -30,12 +30,12 @@ namespace MachineACafe
 
         }
 
-        public int serveWithCup(string name, int price)
+        public int serveWithCup(Drink drink)
         {
 
-            if (this.drink.getPrice() == price && this.getCupFound() == true)
+            if (this.drink.getPrice() == drink.getPrice() && this.getCupFound() == true)
             {
-                return price;
+                return drink.getPrice();
             }
             else
             {
@@ -52,6 +52,12 @@ namespace MachineACafe
         {
             return this.cupFound;
         }
+
+        public void  SetCupFound(bool isCupFound)
+        {
+           this.cupFound = isCupFound;
+        }
+
 
 
 

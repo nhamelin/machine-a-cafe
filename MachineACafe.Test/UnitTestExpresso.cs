@@ -16,7 +16,7 @@ namespace MachineACafe.Test
             CoffeeMachine cm = new CoffeeMachine();
             cm.drink = drink;
             //Act
-            var res = cm.serve(name,price);
+            var res = cm.serve(drink);
 
             //Assert
             Assert.AreEqual(40, res,"Votre expresso est servi, bonne dégustation");
